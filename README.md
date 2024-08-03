@@ -48,5 +48,7 @@ Open custom.ipynb in Jupyter Notebook and run the cells to perform tooth segment
 
 ### If you want to see the results of the training:
 Open test_model.ipynb in Jupyter Notebook and follow the instructions to test and validate the model using the provided test images. The model is tested with the trained file from [mask_rcnn_object_0037.zip](https://github.com/SaraBallkoci/Mask-RCNN/mask_rcnn_object_0037.zip). 
+![Example Image](https://github.com/SaraBallkoci/Mask-RCNN/tested_image.PNG)
+
 
 
