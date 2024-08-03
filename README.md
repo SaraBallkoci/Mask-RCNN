@@ -9,7 +9,7 @@ The model generates bounding boxes and segmentation masks for each instance of a
 
 [custom.py](https://github.com/SaraBallkoci/Mask-RCNN/custom.py): Python script version of the custom implementation.
 
-[dataset.zip](https://github.com/SaraBallkoci/Mask-RCNN/dataset.zip): Contains the dataset used for training and validation.
+[dataset.zip](https://github.com/SaraBallkoci/Mask-RCNN/dataset.zip): Contains the dataset used for training and validation (290 annotated images with their json files fro traning, 74 annotated images with their json files for validation).
 
 [mask_rcnn_object_0037.zip](https://github.com/SaraBallkoci/Mask-RCNN/mask_rcnn_object_0037.zip): Contains the weight file created by the training process, used for testing purposes.
 
@@ -37,16 +37,16 @@ Install the required libraries:
 
 Download the Mask R-CNN model and weights:
 
-Download the mrcnn folder and weights file from Matterport's Mask R-CNN https://github.com/matterport/Mask_RCNN repository and place them in the project directory. 
+Download the mrcnn folder and pre-trained COCO weights (mask_rcnn_coco.h5) from Matterport's Mask R-CNN https://github.com/matterport/Mask_RCNN repository and place them in the project directory. 
 
 Unzip the dataset.zip, test_images.zip and mask_rcnn_object_0037.zip and put them in your project's directory.
 
 ## How to use
 
-Run the custom implementation:
-Open custom.ipynb in Jupyter Notebook and run the cells to perform tooth segmentation and train the model.
+### If you want to train the model again:
+Open custom.ipynb in Jupyter Notebook and run the cells to perform tooth segmentation and train the model. The trining is done starting by the pre-trained COCO weights (mask_rcnn_coco.h5) from [release](https://github.com/matterport/Mask_RCNN/releases) page.
 
-Test the model:
-Open test_model.ipynb in Jupyter Notebook and follow the instructions to test and validate the model using the provided test images.
+### If you want to see the results of the training:
+Open test_model.ipynb in Jupyter Notebook and follow the instructions to test and validate the model using the provided test images. The model is tested with the trained file from [mask_rcnn_object_0037.zip](https://github.com/SaraBallkoci/Mask-RCNN/mask_rcnn_object_0037.zip). 
 
 
