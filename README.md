@@ -47,8 +47,9 @@ Unzip the dataset.zip, test_images.zip and mask_rcnn_object_0037.zip and put the
 Open custom.ipynb in Jupyter Notebook and run the cells to perform tooth segmentation and train the model. The trining is done starting by the pre-trained COCO weights (mask_rcnn_coco.h5) from [release](https://github.com/matterport/Mask_RCNN/releases) page.
 
 ### If you want to see the results of the training:
-Open test_model.ipynb in Jupyter Notebook and follow the instructions to test and validate the model using the provided test images. The model is tested with the trained file from [mask_rcnn_object_0037.zip](https://github.com/SaraBallkoci/Mask-RCNN/mask_rcnn_object_0037.zip). 
-![Example Image](https://github.com/SaraBallkoci/Mask-RCNN/tested_image.PNG)
+Open test_model.ipynb in Jupyter Notebook and follow the instructions to test and validate the model using the provided test images. The model is tested with the trained file from [mask_rcnn_object_0037.zip](https://github.com/SaraBallkoci/Mask-RCNN/mask_rcnn_object_0037.zip). Below we can see the results of our training on two unseen images.
+![Example Image](https://github.com/SaraBallkoci/Mask-RCNN/blob/master/tested_image.PNG)
+![Example Image](https://github.com/SaraBallkoci/Mask-RCNN/blob/master/tested_image1.PNG)
 
 
 
